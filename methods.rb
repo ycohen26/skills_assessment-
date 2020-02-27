@@ -42,17 +42,22 @@
 
 # 6. Write a program that asks the user to enter two words, then prints both words on the same line in all capital letters.
 
-responses = []
+# responses = []
 
-print "Enter two words: "
-2.times do
-  response = gets.chomp
-  responses << response
-end
+# print "Enter two words: "
+# 2.times do
+#   response = gets.chomp
+#   responses << response
+# end
 
-puts responses.upcase
+# puts responses.join(" ").upcase
   
 # 7. Write a program that asks the user to enter a word, then prints the number of letters in the word.
+
+# puts "Write a word: "
+# response = gets.chomp
+
+# p response.length  
 
 # 8. Write a program that asks the user to enter a number, then prints "That's a negative number" if the number is less than 0.
 
